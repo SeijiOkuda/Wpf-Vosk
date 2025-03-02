@@ -1,0 +1,14 @@
+﻿<Window x:Class="Wpf_Vosk.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_Vosk"
+        mc:Ignorable="d"
+        Title="Voice Recognition" Height="350" Width="525">
+    <Grid>
+        <Button Name="StartButton" Content="開始" HorizontalAlignment="Left" VerticalAlignment="Top" Width="100" Height="50" Click="StartButton_Click"/>
+        <Button Name="StopButton" Content="終了" HorizontalAlignment="Right" VerticalAlignment="Top" Width="100" Height="50" Click="StopButton_Click"/>
+        <ProgressBar Name="VolumeBar" HorizontalAlignment="Stretch" VerticalAlignment="Bottom" Height="30" Margin="10"/>
+    </Grid>
+</Window>

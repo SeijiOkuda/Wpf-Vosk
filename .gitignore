@@ -1,0 +1,50 @@
+# ビルド出力
+bin/
+obj/
+
+# ユーザー固有のファイル
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# 一時ファイル
+*.log
+*.temp
+*.tmp
+
+# OS固有のファイル
+.DS_Store
+Thumbs.db
+
+# IDE固有のファイル
+.vscode/
+.idea/
+
+# Visual Studio
+.vs/
+*.vcxproj.user
+*.vcxproj.filters
+*.pdb
+*.opendb
+*.VC.db
+*.VC.VC.opendb
+
+# WPF
+*.g.i.cs
+*.g.cs
+*.cache
+*.ilk
+*.ncb
+*.sdf
+*.ipch
+*.aps
+*.pch
+*.rsp
+*.tlb
+*.tli
+*.tlh
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
